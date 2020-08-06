@@ -1,0 +1,208 @@
+.container {
+	width: 1200px;
+	margin: 0px auto;
+	font-family: 'Roboto', sans-serif;
+	}
+
+::-moz-selection{
+color: #f7fcfe;
+background-color:rgba(96,88,47,0.7);
+}
+
+::selection{
+color: #f7fcfe;
+background-color:rgba(96,88,47,0.7);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 360px;
+  }
+  nav {
+  	margin-bottom: 50px;
+  }
+  .navigation a{
+  	line-height: 2.5;
+  }
+}
+
+.text-color{										/* text-color except HEADER */
+	color: #60582F;
+}
+
+.box-shadow {
+	box-shadow: 0px 10px 35px rgba(40,26,102,0.5);
+	border-radius: 5px;
+}
+
+p,li,td {
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+h2 {
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+h3 {
+	font-size: 17px;
+	line-height: 1.4;
+}
+
+#header {
+	width: 75%;                            		/* HEADER | Header width 960px */
+	margin: 10px auto;
+	padding: 10px 20px 40px;
+	background-color: rgba(40,26,102,0.9);
+	color: rgba(217,217,217,0.8);
+}
+
+
+.image-profile {
+	width:180px;
+	height: 180px;
+	margin: 0px auto;
+}
+
+.image-profile img {
+	border-radius: 50%;
+}
+
+#personality {								/* Personality | Width 880px */
+	width: 65%;
+	margin: -20px auto 20px;
+	padding: 10px 20px;
+	background-color: rgba(255,255,255,1);
+	z-index: 1;
+}
+
+#expertise {								/* Expertise | Width 880px */
+	width: 75%;
+	margin:20px auto;
+	text-align: center;
+	padding: 10px 10px;
+	transition: transform 0.1s ease-out;
+	}
+
+#expertise ol {
+	list-style-type: none;
+	padding: 0px;
+}
+
+#expertise:hover {
+	transform: scale(1.06,1.06);
+	background-color:#EEEBD3;
+	box-shadow: 0px 10px 35px rgba(40,26,102,0.5);
+	border-radius: 5px;
+	color: #493A1D;
+}
+
+
+
+#motivation {										/* motivation | Header width 960px */
+	width: 75%;
+	margin: 20px auto;
+}
+
+#work-experience {									/* work-experience | Header width 960px */
+	width: 75%;
+	margin: 20px auto;
+	padding: 20px;
+}
+
+#education {										/* education | Header width 960px */
+	width: 75%;
+	margin: 20px auto;
+	text-align: left;
+}
+
+#education td {
+text-align: left;
+vertical-align: top;
+}
+
+#tools {											/* tools | Header width 960px */
+	width: 75%;
+	margin: 20px auto 5px;
+	padding: 20px;
+}
+
+#tools li {
+padding:5px;
+}
+
+#certifications {
+	width: 75%;
+	margin: 20px auto;
+}
+
+#hobbies {
+	width: 75%;
+	margin: 20px auto;
+}
+
+
+#contact {
+	width: 80%;
+	margin: 0px auto 10px;
+	text-align:center;
+	background-color: rgba(40,26,102,0.9);
+	color: rgba(217,217,217,0.8);
+}
+
+#contact ul {
+	margin: 10px;
+	list-style-type: none;
+	padding-left: 0px;
+	padding: 20px;
+}
+
+#contact i {
+	font-size: 26px;
+	color:rgba(217,217,217,0.8);
+}
+
+#contact li {
+	padding: 5px;
+}
+
+.navigation {
+	width: 100%;
+	height: 20px;
+	margin: 10px auto 30px;
+	padding: 5px;
+	background-color: transparent;
+	text-align: center;
+}
+.navigation li{
+	display: inline;
+	line-height: 2.2;
+	padding: 5px;
+	background-color:#EEEBD3;
+	border-radius: 5px;
+	font-size:13px;
+}
+
+.navigation a{
+	text-decoration: none;
+	color: #60582F;
+}
+
+.navigation li:hover{
+	background-color:#ddd8a9;
+	}
